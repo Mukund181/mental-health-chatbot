@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A8D5BA" />
+      <stop offset="100%" stop-color="#3B7A75" />
+    </linearGradient>
+  </defs>
+  <!-- Beautiful organic leaf shape representing growth and peace -->
+  <path d="M50 12 C30 38 12 55 12 72 C12 88 28 92 50 92 C72 92 88 88 88 72 C88 55 70 38 50 12 Z" fill="url(#leafGrad)" />
+  <!-- Delicate organic vein details -->
+  <path d="M50 12 C45 35 35 50 22 62" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.5" />
+  <path d="M50 12 C55 35 65 50 78 62" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.5" />
+  <path d="M50 12 L50 92" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.3" />
+</svg>
