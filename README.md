@@ -1,4 +1,15 @@
+---
+title: My Safe Space
+emoji: 🌿
+colorFrom: green
+colorTo: blue
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # 🌿 SafeSpace — Empathetic Mental Health Companion
+
 
 SafeSpace is a private, calm corner of the internet designed to help users process their thoughts and find emotional grounding. It integrates a secure Node.js authentication and backend gateway with a Python Retrieval-Augmented Generation (RAG) agent powered by Groq and LangChain.
 
