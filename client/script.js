@@ -1,7 +1,4 @@
-/* ===========================================================
-   SafeSpace — Client Script
-   Auth flow + empathetic chatbot. Nothing extra.
-   =========================================================== */
+
 
 // ── State ──
 const API_BASE = '';
