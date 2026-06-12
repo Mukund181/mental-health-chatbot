@@ -6,7 +6,10 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-loader = TextLoader("docs/data.txt")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_PATH = os.path.join(BASE_DIR, "../docs/data.txt")
+
+loader = TextLoader(DATA_PATH)
 doc = loader.load()
 
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
